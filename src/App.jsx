@@ -1,20 +1,21 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import { Component } from 'react'
+import { useState } from 'react';
+import reactLogo from './assets/react.svg';
+import viteLogo from '/vite.svg';
+import { Component } from 'react';
 // import './App.css'
-import { ContentComponent } from './assets/components/ContentComponent'
-import { FooterComponent } from './assets/components/FooterComponent'
-import { HeaderComponent } from './assets/components/HeaderComponent'
-import { MapDemo1 } from './assets/components/MapDemo1'
-import { MapDemo2 } from './assets/components/MapDemo2'
-import { MapDemo3 } from './assets/components/MapDemo3'
-import { MapDemo4 } from './assets/components/MapDemo4'
-import { MapDemo5 } from './assets/components/MapDemo5'
-import { MapDemo6 } from './assets/components/MapDemo6'
-import { MapDemo7 } from './assets/components/MapDemo7'
-import { MapDemo8 } from './assets/components/MapDemo8'
-import { MapDemo9 } from './assets/components/MapDemo9'
+
+import { FooterComponent } from './assets/components/FooterComponent';
+import { HeaderComponent } from './assets/components/HeaderComponent';
+
+import { MapDemo1 } from './assets/components/MapDemo1';
+import { MapDemo2 } from './assets/components/MapDemo2';
+import { MapDemo3 } from './assets/components/MapDemo3';
+import { MapDemo4 } from './assets/components/MapDemo4';
+import { MapDemo5 } from './assets/components/MapDemo5';
+import { MapDemo6 } from './assets/components/MapDemo6';
+import { MapDemo7 } from './assets/components/MapDemo7';
+import { MapDemo8 } from './assets/components/MapDemo8';
+import { MapDemo9 } from './assets/components/MapDemo9';
 import { Route, Routes } from "react-router-dom";
 import { NetflixHome } from "./assets/components/NetflixHome";
 import { NetflixMovies } from "./assets/components/NetflixMovies";
@@ -31,6 +32,19 @@ import { HomeComponent } from "./assets/components/HomeComponent";
 import { UseStateDemo1 } from './assets/components/UseStateDemo1';
 import { UseStateDemo2 } from './assets/components/UseStateDemo2';
 import { UseStateDemo3 } from './assets/components/UseStateDemo3';
+import { Employees } from './assets/components/Employees';
+import { EmployeeList } from './assets/components/EmployeeList';
+import { FunctionDemo1 } from "./assets/components/FunctionDemo1";
+import ContentComponent from "./assets/components/ContentComponent";
+
+
+
+
+
+
+
+
+
 
 
 function App() {
@@ -54,10 +68,10 @@ function App() {
         <Route path="/usestatedemo1" element={<UseStateDemo1 />}></Route>
         <Route path="/usestatedemo2" element={<UseStateDemo2 />}></Route>
         <Route path="/usestatedemo3" element={<UseStateDemo3 />}></Route>
-        
-
+        <Route path="/employees" element={<Employees />}></Route>
+        <Route path="/functiondemo1" element={<FunctionDemo1 />}></Route>
+        <Route path="/employeelist" element={<EmployeeList />}></Route>
         <Route path="/*" element = {<ErrorNotFound/>}></Route>
-        
         <Route path="/" element = {<HomeComponent/>}></Route>
         
        
