@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function ContentComponent() {
+export default function ContentComponent1() {
   //js code... number,string,undefined,boolean,object
 
   var year = 2026;
@@ -32,4 +32,4 @@ export default function ContentComponent() {
       <h3>city : {student.city}</h3>
     </div>
   );
-};
+}

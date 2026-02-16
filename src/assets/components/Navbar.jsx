@@ -5,7 +5,7 @@ export const Navbar = () => {
   return (
     <div>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">
+        <a className="navbar-brand" href="#">
           Navbar
         </a>
         <button
@@ -17,7 +17,7 @@ export const Navbar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -27,7 +27,7 @@ export const Navbar = () => {
                 NEtflix Home
               </Link>
             </li>
-            <li class="nav-item">
+            {/* <li class="nav-item">
               <Link class="nav-link" to="/netflixshows">
                 Shows
               </Link>
@@ -66,10 +66,45 @@ export const Navbar = () => {
               <Link class="nav-link" to="/usestatedemo3">
                 usestatedemo3
               </Link>
-            </li>
+            </li> */}
             <li class="nav-item">
               <Link class="nav-link" to="/employees">
                 employees
+              </Link>
+            </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/inputdemo1">
+                inputdemo1
+              </Link>
+            </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/inputdemo2">
+                inputdemo2
+              </Link>
+            </li>
+             {/* <li className="nav-item">
+              <Link className="nav-link" to="/student">
+                student
+              </Link>
+            </li> */}
+            <li class="nav-item">
+              <Link class="nav-link" to="/formdemo1">
+                formdemo1
+              </Link>
+            </li>
+             <li class="nav-item">
+              <Link class="nav-link" to="/formdemo2">
+                formdemo2
+              </Link>
+            </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/formdemo11">
+                formdemo11
+              </Link>
+            </li>
+             <li class="nav-item">
+              <Link class="nav-link" to="/formdemo12">
+                formdemo12
               </Link>
             </li>
            
@@ -79,6 +114,6 @@ export const Navbar = () => {
       </nav>
     </div>
   );
-};
+}
 
 

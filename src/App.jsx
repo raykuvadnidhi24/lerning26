@@ -6,7 +6,6 @@ import { Component } from 'react';
 
 import { FooterComponent } from './assets/components/FooterComponent';
 import { HeaderComponent } from './assets/components/HeaderComponent';
-
 import { MapDemo1 } from './assets/components/MapDemo1';
 import { MapDemo2 } from './assets/components/MapDemo2';
 import { MapDemo3 } from './assets/components/MapDemo3';
@@ -33,9 +32,17 @@ import { UseStateDemo1 } from './assets/components/UseStateDemo1';
 import { UseStateDemo2 } from './assets/components/UseStateDemo2';
 import { UseStateDemo3 } from './assets/components/UseStateDemo3';
 import { Employees } from './assets/components/Employees';
-import { EmployeeList } from './assets/components/EmployeeList';
 import { FunctionDemo1 } from "./assets/components/FunctionDemo1";
-import ContentComponent from "./assets/components/ContentComponent";
+import { InputDemo1 } from './assets/components/input/InputDemo1';
+import { InputDemo2 } from './assets/components/input/InputDemo2';
+import ContentComponent1 from "./assets/components/ContentComponent1";
+import { FormDemo1 } from './assets/components/Form/FormDemo1';
+import { FormDemo2 } from './assets/components/Form/FormDemo2';
+import { FormDemo11 } from './assets/components/Form/FormDemo11';
+import { FormDemo12 } from './assets/components/Form/FormDemo12';
+
+
+// import { Student } from './assets/components/Student';
 
 
 
@@ -69,10 +76,19 @@ function App() {
         <Route path="/usestatedemo2" element={<UseStateDemo2 />}></Route>
         <Route path="/usestatedemo3" element={<UseStateDemo3 />}></Route>
         <Route path="/employees" element={<Employees />}></Route>
+        <Route path="/inputdemo1" element={<InputDemo1 />}></Route>
+        <Route path="/inputdemo2" element={<InputDemo2 />}></Route>
+        {/* <Route path="/student" element={<Student />}></Route> */}
         <Route path="/functiondemo1" element={<FunctionDemo1 />}></Route>
-        <Route path="/employeelist" element={<EmployeeList />}></Route>
         <Route path="/*" element = {<ErrorNotFound/>}></Route>
         <Route path="/" element = {<HomeComponent/>}></Route>
+        <Route path='/formdemo1' element={<FormDemo1/>}></Route>
+        <Route path='/formdemo2' element={<FormDemo2/>}></Route>
+        <Route path='/formdemo11' element={<FormDemo11/>}></Route>
+        <Route path='/formdemo12' element={<FormDemo12/>}></Route>
+        
+        
+        
         
        
       </Routes>
