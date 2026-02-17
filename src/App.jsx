@@ -40,6 +40,12 @@ import { FormDemo1 } from './assets/components/Form/FormDemo1';
 import { FormDemo2 } from './assets/components/Form/FormDemo2';
 import { FormDemo11 } from './assets/components/Form/FormDemo11';
 import { FormDemo12 } from './assets/components/Form/FormDemo12';
+import { ApiDemo1 } from './assets/components/api/ApiDemo1';
+import { ApiDemo11 } from './assets/components/api/ApiDemo11';
+import { ApiDemo12 } from './assets/components/api/ApiDemo12';
+import { ApiDemo13 } from './assets/components/api/ApiDemo13';
+
+
 
 
 // import { Student } from './assets/components/Student';
@@ -86,6 +92,10 @@ function App() {
         <Route path='/formdemo2' element={<FormDemo2/>}></Route>
         <Route path='/formdemo11' element={<FormDemo11/>}></Route>
         <Route path='/formdemo12' element={<FormDemo12/>}></Route>
+        <Route path='/apidemo1' element={<ApiDemo1/>}></Route>
+        <Route path='/apidemo11' element={<ApiDemo11/>}></Route>
+        <Route path='/apidemo12' element={<ApiDemo12/>}></Route>
+        <Route path='/apidemo13' element={<ApiDemo13/>}></Route>
         
         
         
